@@ -8,6 +8,8 @@ and this project adheres to [Semantic Versioning](https://semver.org).
 <!-- next-header -->
 ## [Unreleased]
 
+## [0.1.0] - 2023-04-26
+
 ## [0.1.0]
 
 ### Added
@@ -17,4 +19,5 @@ and this project adheres to [Semantic Versioning](https://semver.org).
 
 <!-- next-url -->
 [Unreleased]: https://github.com/FedericoStra/composing/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/FedericoStra/composing/compare/v0.1.0...v0.1.0
 [0.1.0]: https://github.com/FedericoStra/composing/releases/tag/v0.1.0
