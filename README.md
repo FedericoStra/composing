@@ -16,7 +16,7 @@ They both support right-to-left and left-to-right composition.
 
 ## Examples
 
-```
+```rust
 use composing::*;
 
 fn plus_one(x: i32) -> i32 { x + 1 }
