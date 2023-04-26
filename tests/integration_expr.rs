@@ -1,3 +1,5 @@
+#![no_std]
+
 use composing::compose_expr;
 
 // Check that the macro can be called from another crate.

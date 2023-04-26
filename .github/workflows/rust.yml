@@ -26,6 +26,7 @@ jobs:
       run: cargo build --verbose --all-features --all-targets
 
     - name: Test
+      run: cargo test --verbose --no-default-features
       run: cargo test --verbose --all-features
 
     - name: Clippy

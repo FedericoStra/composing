@@ -24,6 +24,7 @@ assert_eq!(composition(17), "35");
 ```
 */
 
+#![cfg_attr(not(feature = "std"), no_std)]
 #![cfg_attr(docsrs, feature(doc_auto_cfg))]
 
 /// Macro to compose expressions.
@@ -181,6 +182,7 @@ mod tests {
     }
 
     #[test]
+    #[cfg(feature = "std")]
     fn advanced() {
         fn plus_one(x: i32) -> i32 {
             x + 1

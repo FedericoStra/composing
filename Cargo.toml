@@ -13,6 +13,10 @@ edition = "2021"
 
 [dependencies]
 
+[features]
+"default" = ["std"]
+"std" = []
+
 [package.metadata.docs.rs]
 rustdoc-args = ["--cfg", "docsrs"]
 all-features = true

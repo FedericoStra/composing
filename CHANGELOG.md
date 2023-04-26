@@ -8,6 +8,10 @@ and this project adheres to [Semantic Versioning](https://semver.org).
 <!-- next-header -->
 ## [Unreleased]
 
+### Added
+
+- Make the crate `no_std` compatible.
+
 ## [0.1.1] - 2023-04-26
 
 ### Added
