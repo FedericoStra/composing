@@ -5,7 +5,7 @@
 [![crates.io](https://img.shields.io/crates/v/composing?logo=rust)](https://crates.io/crates/composing)
 [![docs.rs](https://img.shields.io/docsrs/composing?logo=docsdotrs)](https://docs.rs/composing)
 [![GitHub](https://img.shields.io/static/v1?label=github&message=FedericoStra/composing&color=brightgreen&logo=github)](https://github.com/FedericoStra/composing)
-[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/FedericoStra/composing/Rust?logo=githubactions&logoColor=white)](https://github.com/FedericoStra/composing/actions/workflows/rust.yml)
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/FedericoStra/composing/rust.yml?logo=githubactions&logoColor=white)](https://github.com/FedericoStra/composing/actions/workflows/rust.yml)
 [![Dependencies status](https://deps.rs/repo/github/FedericoStra/composing/status.svg)](https://deps.rs/repo/github/FedericoStra/composing)
 [![MIT license](https://img.shields.io/crates/l/composing)](https://choosealicense.com/licenses/mit/)
 
