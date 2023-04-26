@@ -28,12 +28,18 @@ assert_eq!(composition(17), "35");
 
 /// Macro to compose expressions.
 ///
-/// Supports both right-to-left and left-to-right composition:
+/// # Usage
+///
+/// The macro supports both right-to-left and left-to-right composition:
 ///
 /// - right-to-left composition is achieved by giving the macro a comma-separated
 /// list of expressions;
 /// - left-to-right composition is achieved by giving the macro a list of expressions
 /// separated by `=>`.
+///
+/// For instance,
+/// - `compose_expr!(a, b, c, d)` expands to `a(b(c(d)))`;
+/// - `compose_expr!(a => b => c => d)` expands to `d(c(b(a)))`.
 ///
 /// # Examples
 ///
@@ -71,12 +77,18 @@ macro_rules! compose_expr {
 
 /// Macro to compose functions.
 ///
-/// Supports both right-to-left and left-to-right composition:
+/// # Usage
+///
+/// The macro supports both right-to-left and left-to-right composition:
 ///
 /// - right-to-left composition is achieved by giving the macro a comma-separated
 /// list of functions;
 /// - left-to-right composition is achieved by giving the macro a list of functions
 /// separated by `=>`.
+///
+/// For instance,
+/// - `compose_fn!(a, b, c, d)` expands to `|x| a(b(c(d(x))))`;
+/// - `compose_fn!(a => b => c => d)` expands to `|x| d(c(b(a(x))))`.
 ///
 /// # Examples
 ///

@@ -8,6 +8,10 @@ and this project adheres to [Semantic Versioning](https://semver.org).
 <!-- next-header -->
 ## [Unreleased]
 
+### Added
+
+- Improved documentation of the macros `compose_expr!` and `compose_fn!`.
+
 ## [0.1.0] - 2023-04-26
 
 ### Added
