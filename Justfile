@@ -16,3 +16,7 @@ docsrs:
 # Run `cargo clippy` an all targets with all features enabled
 clippy:
 	cargo clippy --all-features --all-targets
+
+# Run all the pre-release checks on a clean project
+pre-release-check: && test clippy docsrs
+	cargo clean
